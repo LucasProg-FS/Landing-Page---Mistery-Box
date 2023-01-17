@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Righteous&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #211e30;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+.header .text-header {
+  font-family: "Lobster", cursive;
+  font-size: 58px;
+  color: #29dadd;
+}
+.header .itens-nav {
+  display: flex;
+  gap: 30px;
+}
+.header .itens-nav a {
+  font-family: "Righteous", cursive;
+  color: #29dadd;
+  font-size: 18px;
+}
+
+.content {
+  border-top: 1px solid #29dadd;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.content .content-left {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+.content .content-left .text-content-left {
+  font-family: "Righteous", cursive;
+  color: #29dadd;
+  width: 650px;
+  font-size: 44px;
+  text-align: center;
+}
+.content .content-left .img-content-left {
+  height: 340px;
+}
+.content .content-right {
+  padding-top: 30px;
+  padding-right: 100px;
+}
+.content .content-right .registration-card {
+  border: 2px solid #29dadd;
+  border-radius: 30px;
+  box-shadow: 4px 4px 4px 4px rgb(0, 0, 0);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.content .content-right .registration-card .title-card {
+  color: #29dadd;
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+}
+.content .content-right .registration-card .format-input {
+  padding: 18px;
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+  background-color: #dbdbdb;
+}
+.content .content-right .registration-card .text-option-personalidade {
+  color: #29dadd;
+  font-family: "Righteous", cursive;
+  font-size: 22px;
+  width: 350px;
+  text-align: center;
+}
+.content .content-right .registration-card .container-personalidade {
+  display: flex;
+  gap: 30px;
+}
+.content .content-right .registration-card .container-personalidade .option-personalidade {
+  width: 170px;
+  color: #dbdbdb;
+  font-family: "Righteous", cursive;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,103 @@
+@import "./colors.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Righteous&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: $color-background
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  .text-header {
+    font-family: 'Lobster', cursive;
+    font-size: 58px;
+    color: $color-primary;
+  }
+  .itens-nav {
+    display: flex;
+    gap: 30px;
+    a {
+      font-family: 'Righteous', cursive;
+      color: $color-primary;
+      font-size: 18px;
+    }
+  }
+}
+
+.content {
+  border-top: 1px solid $color-primary;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  .content-left {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    .text-content-left {
+      font-family: 'Righteous', cursive;
+      color: $color-primary;
+      width: 650px;
+      font-size: 44px;
+      text-align: center;
+    }
+    .img-content-left {
+      height: 340px;
+    }
+  }
+  .content-right {
+    padding-top: 30px;
+    padding-right: 100px;
+    .registration-card {
+      border: 2px solid $color-primary;
+      border-radius: 30px;
+      box-shadow: 4px 4px 4px 4px rgb(0, 0, 0);
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      height: 600px;
+      justify-content: space-evenly;
+      align-items: center;
+      
+      .title-card {
+        color: $color-primary;
+        font-family: 'Lobster', cursive;
+        font-size: 40px;
+      }
+      .format-input {
+        padding: 18px;
+        width: 90%;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+        background-color: #dbdbdb ;
+      }
+      .text-option-personalidade {
+        color: $color-primary;
+        font-family: 'Righteous', cursive;
+        font-size: 22px;
+        width: 350px;
+        text-align: center;
+      }
+      .container-personalidade {
+        display: flex;
+        gap: 30px;
+        .option-personalidade {
+          width: 170px;
+          color: #dbdbdb;
+          font-family: 'Righteous', cursive;
+        
+        }
+      }
+    }
+  }
+  
+}
